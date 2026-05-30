@@ -6,7 +6,19 @@ Climb helps you build a debt payoff plan, understand what to focus on next, and 
 
 Support email:
 
-support@yourdomain.com
+climbappsupport@gmail.com
+
+## Local Data Storage
+
+Climb stores debt information and plan data locally on your device. The app does not currently use cloud synchronization, bank connections, or financial institution connections.
+
+Climb does not currently share your debt or financial plan data with third parties.
+
+## Payment Reminders
+
+Payment Reminders are optional. If you enable them, Climb may ask for notification permission so the app can show local reminders to confirm planned payments.
+
+Reminder settings stay on your device. No reminder data leaves your device.
 
 ## Basic Troubleshooting
 
@@ -66,4 +78,3 @@ Include your device model, Android version, and the screen where the issue happe
 ## Important Note
 
 Climb provides debt planning guidance based on the information you enter. It does not make payments, connect to bank accounts, or provide professional financial advice.
-

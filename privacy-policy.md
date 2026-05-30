@@ -35,9 +35,15 @@ Climb uses the information you provide to:
 
 Climb provides planning guidance only. It does not provide professional financial, legal, tax, or credit advice.
 
-## Local Storage
+## Local Data Storage
 
-Climb stores your plan data locally on your device using app storage. This lets the app restore your plan after you close and reopen it.
+Climb stores your plan data locally on your device using app storage. This includes debt information, financial snapshot details, progress information, and payment confirmation records that you enter or create in the app.
+
+Climb does not currently use cloud synchronization. Your debt information is not synced to a Climb server.
+
+Climb does not connect to banks, credit cards, lenders, or other financial institutions.
+
+Climb does not currently share your financial plan data with third parties.
 
 At this time, Climb does not use:
 
@@ -46,6 +52,14 @@ At this time, Climb does not use:
 - Bank connections
 - Payment processing
 - Advertising networks
+
+## Payment Reminders
+
+Climb may offer optional payment reminder notifications. These reminders are used only to remind you to check in and confirm whether a planned payment was made.
+
+On Android versions that require notification permission, Climb asks for notification permission only if you choose to enable Payment Reminders.
+
+Payment reminders are local app reminders. No reminder data leaves your device.
 
 ## CSV Import
 
@@ -85,5 +99,4 @@ This privacy policy may be updated as Climb changes. If new data collection, clo
 
 For privacy or support questions, contact:
 
-support@yourdomain.com
-
+climbappsupport@gmail.com
