@@ -1,24 +1,12 @@
 # Climb Support
 
-Climb helps you build a debt payoff plan, understand what to focus on next, and track your progress over time.
+Climb helps you build a debt payoff plan, understand what to focus on next, confirm payments, and track your progress over time.
 
 ## Contact
 
 Support email:
 
-climbappsupport@gmail.com
-
-## Local Data Storage
-
-Climb stores debt information and plan data locally on your device. The app does not currently use cloud synchronization, bank connections, or financial institution connections.
-
-Climb does not currently share your debt or financial plan data with third parties.
-
-## Payment Reminders
-
-Payment Reminders are optional. If you enable them, Climb may ask for notification permission so the app can show local reminders to confirm planned payments.
-
-Reminder settings stay on your device. No reminder data leaves your device.
+[climbappsupport@gmail.com](mailto:climbappsupport@gmail.com)
 
 ## Basic Troubleshooting
 
@@ -26,17 +14,17 @@ If Climb is not behaving as expected, try these steps:
 
 1. Close and reopen the app.
 2. Confirm your income, expenses, Debt Attack Budget, and debts are entered correctly.
-3. Open Settings and review Manage Debts, Edit Financial Snapshot, or Update Debt Attack Budget.
+3. Open the Settings tab and review Manage Debts, Edit Financial Snapshot, or Update Debt Attack Budget.
 4. If the app still appears stuck, use Reset Saved Data to clear the local plan and start again.
 
 ## Reset Saved Data
 
-Reset Saved Data removes your saved Climb plan and progress from this device. This can help during closed testing if you want to start the onboarding flow again.
+Reset Saved Data removes your saved Climb plan, debts, payment history, progress snapshots, and local app state from this device. This can help during testing if you want to start the onboarding flow again.
 
 To reset:
 
 1. Open Climb.
-2. Tap the Settings gear.
+2. Tap the Settings tab.
 3. Choose Reset Saved Data.
 4. Confirm the reset.
 
@@ -62,6 +50,16 @@ Supported debt types:
 - INSTALLMENT
 - MORTGAGE
 
+## Climb Plus, Billing, And Ads
+
+Climb Plus subscriptions are handled by Google Play Billing. If pricing or purchases are unavailable, confirm that you are using a Play-distributed build and that the subscription products are available to your tester account.
+
+Free users may see one interstitial ad per app session. Climb Plus users do not see ads.
+
+## Payment Reminders
+
+Payment Reminders are optional local notifications. If notification permission is denied, reminders stay off and the rest of the app continues to work.
+
 ## Closed Testing Feedback
 
 If you are using Climb through a closed testing track, please report:
@@ -70,6 +68,8 @@ If you are using Climb through a closed testing track, please report:
 - Layout problems
 - Confusing wording
 - Incorrect payment recommendations
+- Billing or subscription issues
+- Ad display issues
 - CSV import issues
 - Steps that are hard to understand
 
