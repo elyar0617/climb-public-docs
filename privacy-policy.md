@@ -76,11 +76,17 @@ Climb includes the Google Mobile Ads SDK. Free users may see one interstitial ad
 
 Ads are not intended to appear during onboarding, plan generation, payment confirmation, the Progress journey, or Settings. Google Mobile Ads may process data according to Google's policies.
 
+## Analytics And Crash Diagnostics
+
+Climb uses Firebase Analytics to understand how people use the app and where the onboarding flow can be improved. The app sends event names and limited non-sensitive context, such as an onboarding step or selected strategy. It does not send the financial values you enter, including debt names, balances, APRs, payment amounts, income, expenses, or credit score.
+
+Climb also uses Firebase Crashlytics to help diagnose app crashes and stability issues. Firebase services may process technical app and device information according to Google's policies.
+
 ## Sharing And Selling Data
 
 Climb does not sell user financial data.
 
-Climb does not share your debt plan, balances, or payment confirmations with Climb-owned servers. Google Play Billing and Google Mobile Ads are third-party services used for subscriptions and ads.
+Climb does not share your debt plan, balances, or payment confirmations with Climb-owned servers. Firebase, Google Play Billing, and Google Mobile Ads are third-party services used for analytics, crash diagnostics, subscriptions, and ads.
 
 ## Deleting Your Data
 

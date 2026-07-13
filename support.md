@@ -56,6 +56,10 @@ Climb Plus subscriptions are handled by Google Play Billing. If pricing or purch
 
 Free users may see one interstitial ad per app session. Climb Plus users do not see ads.
 
+## Analytics And Stability
+
+Climb uses Firebase Analytics for non-sensitive product and onboarding events, and Firebase Crashlytics to help diagnose crashes. These services do not receive the financial values you enter, such as debt names, balances, APRs, payment amounts, income, expenses, or credit score.
+
 ## Payment Reminders
 
 Payment Reminders are optional local notifications. If notification permission is denied, reminders stay off and the rest of the app continues to work.
